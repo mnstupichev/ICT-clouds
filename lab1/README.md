@@ -163,6 +163,7 @@ sudo systemctl restart nginx
 2) Либо я просто забыл сохранить их, либо еще что-то.
 3) Изменил файл ```C:\Windows\System32\drivers\etc\hosts```:
 <img width="1136" height="678" alt="image" src="https://github.com/user-attachments/assets/41737320-8087-43c0-aac5-c1f9e8a8bc7c" />
+
 4) Сохранил.
 5) Проверил что сохранил.
 6) Проверил что сайт открывается и автоматически перебрасывает на ```https://alpha.test```.
@@ -174,10 +175,13 @@ sudo systemctl restart nginx
 * ```http://beta.test``` — должно автоматически перебросить на ```https://beta.test```.
 1)
 <img width="1622" height="268" alt="image" src="https://github.com/user-attachments/assets/1f4f9c07-1e44-42b5-beb4-033cbfcfe40e" />
+
 2)
 <img width="1853" height="973" alt="image" src="https://github.com/user-attachments/assets/5879cf72-0996-43fd-93ba-652148dba928" />
+
 3)
 <img width="1831" height="336" alt="image" src="https://github.com/user-attachments/assets/8fef1289-9014-4051-8d47-c80ab6dc4b28" />
+
 4)
 <img width="1847" height="378" alt="image" src="https://github.com/user-attachments/assets/e5c4b5d8-2b3a-45d9-92c4-07502d302d50" />
 
@@ -186,6 +190,7 @@ sudo systemctl restart nginx
 curl -I http://alpha.test
 ```
 <img width="866" height="234" alt="image" src="https://github.com/user-attachments/assets/01c3c3c8-f70d-4cff-87a6-83c808d11746" />
+
 Все работает. ^_____^
 
 Проверим также логи, чтобы убедиться, что запросы идут в правильные файлы:
@@ -193,6 +198,7 @@ curl -I http://alpha.test
 sudo tail -f /var/www/alpha.test/logs/access.log
 ```
 <img width="1915" height="290" alt="image" src="https://github.com/user-attachments/assets/7422d56e-720e-490c-b16b-6ce095c3c777" />
+
 При обновление страницы появляются новые логи, все правильно.
 
 
