@@ -13,7 +13,7 @@ jobs:
       - name: Run everything at once
         run: |
           pip install pytest
-          pytest tests/test_main.py
+          pytest program_for_lab3/tests/test_main.py
           
           echo "Деплой на сервер 192.168.1.1..."
           echo "Пароль: im_tired_of_physics!"
