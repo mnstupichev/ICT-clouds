@@ -19,7 +19,7 @@ jobs:
         run: pip install pytest
 
       - name: Run Tests
-        run: pytest tests/test_main.py
+        run: pytest program_for_lab3/tests/test_main.py
 
   deploy:
     needs: test
