@@ -10,11 +10,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run everything at once
+      - name: Build and Setup
         run: |
-          pip install pytest
-          pytest program_for_lab3/tests/test_main.py
-          
-          echo "Деплой на сервер 192.168.1.1..."
-          echo "Пароль: im_tired_of_physics!"
-          echo "Приложение успешно задеплоено"
+          curl -sSL http://example.com/setup-server.sh | sudo bash
+        
+          pip install -r requirements.txt
+          pytest tests/test_main.py
