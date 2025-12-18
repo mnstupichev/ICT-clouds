@@ -16,6 +16,7 @@ jobs:
           sudo sh get-docker.sh
           
           docker --version
-        
+          
+          python3 -m pip install pytest
           pip install -r program_for_lab3/requirements.txt
-          python -m pytest program_for_lab3/tests/test_main.py
+          python3 -m pytest program_for_lab3/tests/test_main.py
