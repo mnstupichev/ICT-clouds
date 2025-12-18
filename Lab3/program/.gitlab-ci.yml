@@ -1,0 +1,11 @@
+image: python:latest
+
+stages:
+  - everything
+
+job1:
+  stage: everything
+  script:
+    - pip install -r requirements.txt
+    - pytest tests/
+    - echo "Деплоим на сервер с паролем: im_tired_of_physics"
