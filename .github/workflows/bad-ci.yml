@@ -1,11 +1,20 @@
-image: python:latest
+name: Bad CI Pipeline
 
-stages:
-  - everything
+on: [push]
 
-job1:
-  stage: everything
-  script:
-    - pip install -r requirements.txt
-    - pytest tests/
-    - echo "Деплоим на сервер с паролем: im_tired_of_physics"
+jobs:
+  everything_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run everything at once
+        run: |
+          pip install pytest
+          pytest tests/test_main.py
+          
+          echo "Деплой на сервер 192.168.1.1..."
+          echo "Пароль: im_tired_of_physics!"
+          echo "Приложение успешно задеплоено"
