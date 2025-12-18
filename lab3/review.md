@@ -39,7 +39,7 @@
 взломать (ну или просто даже изменить):
 <img width="1128" height="649" alt="image" src="https://github.com/user-attachments/assets/0dbecb14-5b74-42b6-a90a-fa667b31956a" />
 
-После небольших страданий (нашел еще одну плохую практику: без использования ```setup-python``` пути к библиотекам (PATH) не настроены), все задеплоелось: 
+После небольших страданий (нашел еще одну плохую практику: без использования ```setup-python``` пути к библиотекам (PATH) не настроены), все задеплоилось: 
 
 <img width="468" height="513" alt="image" src="https://github.com/user-attachments/assets/ea243b0d-c85f-4e1b-939a-4d86e5b89b9a" />
 
