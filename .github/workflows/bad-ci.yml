@@ -17,5 +17,5 @@ jobs:
           
           docker --version
         
-          pip install -r program_for_lab3/tests/requirements.txt
+          pip install -r program_for_lab3/requirements.txt
           pytest program_for_lab3/tests/test_main.py
