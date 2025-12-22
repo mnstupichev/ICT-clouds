@@ -7,28 +7,30 @@
 ## Ход работы
 ### 1. Распрелеление нужных нам сервисов Azure (классификация)
 
-1) Cloud Services 
-  * Analytics
-    - Azure SQL Database
-    - Azure Synapse Analytics
-    - Azure Data Factory v2
+1) **Cloud Services**
+   - **Analytics**
+     - Azure SQL Database
+     - Azure Synapse Analytics
+     - Azure Data Factory v2
 
-  * Application Services
-    - Visual Studio Team Services
-    - Azure Application Insights
-    - Azure App Service
+   - **Application Services**
+     - Visual Studio Team Services
+     - Azure Application Insights
+     - Azure App Service
 
-2) Compute (Compute):
-  - Azure Virtual Machines
+2) **Compute**
+   - **Compute**
+     - Azure Virtual Machines
 
-3) Storage (Storage & Content Delivery):
-  - Azure Storage
-  - Azure Backup
-  - Azure Recovery Services Vault
-  - Azure Storage
-  - Azure Managed Disks
-  - Azure Machine Learning
-  - Azure Batch
+3) **Storage**
+   - **Storage & Content Delivery)**
+     - Azure Storage
+     - Azure Backup
+     - Azure Recovery Services Vault
+     - Azure Storage
+     - Azure Managed Disks
+     - Azure Machine Learning
+     - Azure Batch
   
 ### 2. Заполнение таблички
 
