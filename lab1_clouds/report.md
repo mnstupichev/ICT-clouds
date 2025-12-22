@@ -22,7 +22,33 @@ IaaS, PaaS, SaaS - классификации, определяющие уров
 Провайдер предоставляет полностью готовое к использованию программное обеспечение доступное через сеть.
 Клиент контролирует только собственные данные и настройки внутри предоставленного приложения.
 
-### 1. Заполнение таблички
+### 1. Распрелеление нужных нам сервисов AWS (классификация):
+*   **Cloud Services**
+    *   **Analytics**
+        *   Amazon MSK
+        *   Amazon OpenSearch Service
+    *   **Application Services**
+        *   Amazon MSK
+    *   **Artificial Intelligence**
+        *   Amazon Polly
+        *   Amazon Personalize
+    *   **Security and Identity**
+        *   Amazon Macie
+
+*   **Networking**
+    *   **Networking**
+        *   Amazon MSK
+        *   Amazon S3
+        *   Amazon OpenSearch Service
+
+*   **Storage**
+    *   **Storage&Content Delivery**
+        *   Amazon MSK
+        *   Amazon S3
+        *   Amazon OpenSearch Service
+ 
+
+### 2. Заполнение таблички
 
 **Чтобы заполнить данную мне табличку (team 7), я делал несколько шагов:** 
 1) Смотрим на данные нам в варианте поля: Product Code,	Usage Type,	lineItem/Operation,	lineItem/LineItemDescription
@@ -30,7 +56,7 @@ IaaS, PaaS, SaaS - классификации, определяющие уров
 3) Service Family легко узнать на официальном сайте AWS просто вбив Product Code:
 <img width="1588" height="540" alt="image" src="https://github.com/user-attachments/assets/98dd6465-6f7b-4a1f-9d76-9fb643183d3f" />
 
-4) По данной в примере табличке определяем IT Tower: 
+4) По данной в примере табличке определяем IT Tower, ну или же смотрим нашу классификацию: 
 <img width="303" height="392" alt="image" src="https://github.com/user-attachments/assets/c6c288b2-16b2-4cc2-b73f-149027287729" />
 
 5) Service Type — это просто понятное название конкретного продукта AWS.
@@ -64,7 +90,7 @@ Service Usage Type - Tax
 Service Sub Type - RunBroker
 Service Usage Type - RunBroker
 ```
-### 2. Итог
+### 3. Итог
 <img width="1382" height="588" alt="image" src="https://github.com/user-attachments/assets/e1b77d56-39e9-4a48-8024-62fc9b5215e3" />
 <img width="1374" height="436" alt="image" src="https://github.com/user-attachments/assets/d8a62278-27c4-4804-9ac5-5aa5086987f1" />
 
